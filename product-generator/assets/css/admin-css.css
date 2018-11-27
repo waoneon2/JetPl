@@ -1,0 +1,266 @@
+input[type="checkbox"]::before {
+/*    content: "\f147";
+    margin: -3px 0 0 -4px;
+    color: #1e8cbe;*/
+}
+.column-prgen_confid {
+    width: 15%;
+}
+
+.media-preview img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 5px;
+}
+
+.media-preview {
+    display: inline;
+}
+
+body {
+    background: #f1f1f1;
+    color: #444;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+    min-width: 600px;
+}
+
+#prgen_repeatable_fields .prgen-metaboxes-wrapper {
+    padding: 0;
+    display: table;
+    width: 100%;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox.closed {
+    border-radius: 3px;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    margin: 0!important;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox.closed h3 {
+    border: 0;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox h3 {
+    margin: 0!important;
+    padding: .75em .75em .75em 1em!important;
+    font-size: 1em!important;
+    overflow: hidden;
+    zoom: 1;
+    cursor: move;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox h3 {
+    cursor: pointer;
+    padding: .5em .75em .5em 1em!important;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox h3 .handlediv,
+.prgen-metaboxes-wrapper .prgen-metabox h3 .sort,
+.prgen-metaboxes-wrapper .prgen-metabox h3 a.delete {
+    margin-top: .25em;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox h3 a.delete {
+    color: red;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    position: relative;
+    visibility: hidden;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox h3 a.delete,
+.prgen-metaboxes-wrapper .prgen-metabox h3 button {
+    float: right;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox h3 select,
+.prgen-metaboxes-wrapper .prgen-metabox h3 input {
+    font-family: sans-serif;
+    max-width: 20%;
+    margin: .25em .25em .25em 0;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox h3 input {
+    padding: 2px;
+    line-height: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox h3:hover .handlediv,
+.prgen-metaboxes-wrapper .prgen-metabox h3:hover a.delete,
+.prgen-metaboxes-wrapper .prgen-metabox.ui-sortable-helper .handlediv,
+.prgen-metaboxes-wrapper .prgen-metabox.ui-sortable-helper a.delete {
+    visibility: visible;
+}
+
+#prgen_repeatable_fields h3 .sort {
+    width: 17px;
+    height: 26px;
+    cursor: move;
+    float: right;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: .5em;
+    visibility: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox .upload_image_button {
+    display: block;
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox .upload_image_button::before {
+    content: '\f128';
+    font-family: Dashicons;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 64px;
+    font-size: 64px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox .upload_image_button img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox .upload_image_button.remove img,
+.prgen-metaboxes-wrapper .prgen-metabox .upload_image_button.on_remove img {
+    display: block;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox .upload_image_button.remove::before,
+.prgen-metaboxes-wrapper .prgen-metabox .upload_image_button.on_remove::before {
+    content: '\f335';
+    display: none;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox .upload_image_button.remove:hover::before,
+.prgen-metaboxes-wrapper .prgen-metabox .upload_image_button.on_remove:hover::before {
+    display: block;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox.closed .handlediv::before {
+    content: '\f140'!important;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox h3 .handlediv {
+    background-position: 6px 5px!important;
+    visibility: hidden;
+    height: 26px;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox h3:hover .handlediv {
+    visibility: visible;
+}
+
+.prgen-metaboxes-wrapper .prgen-metabox .handlediv::before {
+    content: '\f142'!important;
+    cursor: pointer;
+    display: inline-block;
+    font: 400 20px/1 Dashicons;
+    line-height: .5!important;
+    padding: 8px 10px;
+    position: relative;
+    right: 12px;
+    top: 0;
+}
+
+.form-row label {
+    display: inline-block;
+}
+
+.form-row .prgen-help-tip {
+    display: inline-block;
+}
+
+.form-row input[type=text],
+.form-row input[type=number],
+.form-row select,
+.form-row textarea {
+    width: 100%;
+    vertical-align: middle;
+    margin: 2px 0 0;
+    padding: 6px;
+    height: auto;
+}
+.form-row input[type=checkbox] {
+    margin-left: 20px;
+}
+
+.form-row.form-row-first,
+.form-row.form-row-last {
+    width: 48%;
+    float: right;
+}
+
+.form-row.form-row-have-3.form-row-first,
+.form-row.form-row-have-3.form-row-second,
+.form-row.form-row-have-3.form-row-last {
+    width: 33%;
+    float: left;
+}
+.form-row-have-3.form-row-first {
+    padding: 0 15px 0 0;
+}.form-row-have-3.form-row-second {
+    padding: 0 15px 0 15px;
+}.form-row-have-3.form-row-last {
+    padding: 0 0 0 15px;
+}
+
+.form-row.form-row-first {
+    clear: both;
+    float: left;
+}
+
+.form-row.form-row-full {
+    clear: both;
+}
+
+.pgen-metabox-content .data {
+    padding: 1em 2em;
+    display: table;
+    width: 100%;
+}
+
+.pgen-metabox-content .data::after,
+.pgen-metabox-content .data::before {
+    content: ' ';
+    display: table;
+}
+
+.pgen-metabox-content {
+    background-color: #fdfdfd;
+    border-top: 1px solid #eee;
+    display: table;
+    width: 100%;
+}
+
+.product-generator-option.closed .product-generator-option-content {
+    display: none;
+}
+
+.prgen-metaboxes-wrapper .modal {
+    overflow: auto!important;
+}

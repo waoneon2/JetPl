@@ -1,0 +1,15 @@
+.jetty_image_widget .jiw-items {
+	list-style: none;
+	display: block;
+	width: 100%;
+}
+
+.jetty_image_widget .jiw-item {
+	display: inline-block;
+	margin: 5px;
+}
+
+.jetty_image_widget .jiw-item img {
+    max-height: 120px;
+    width: auto;
+}

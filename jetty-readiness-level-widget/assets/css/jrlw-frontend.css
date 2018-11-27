@@ -1,0 +1,25 @@
+#jrlw-accordian .accordion-toggle{
+    cursor: pointer; 
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#jrlw-accordian .accordion-toggle:not(.jrlw-active){
+	width: 85%;
+}
+
+#jrlw-accordian .fa-info-circle {
+    float: right;
+    margin-top: 3px;
+    display: inline;
+}
+
+#jrlw-accordian .accordion-content {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #efefef;
+    overflow: hidden;
+    display: none;
+}

@@ -1,0 +1,28 @@
+
+
+.jrlw-active {
+  width: 30px;
+}
+
+.jrlw-title th {
+  font-size: 18px;
+
+}
+.jrlw-level-title th {
+  padding: 15px 0px 15px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.jrlw-level-title {
+  border-bottom: 1px solid #e3e3e3;
+  border-top: 1px solid #e3e3e3;
+}
+
+input.jrlw-inputs,
+textarea.jrlw-inputs,
+select.jrlw-inputs {
+  width: 100%;
+}
+select.jrlw-inputs  {
+  max-width: 500px;
+}

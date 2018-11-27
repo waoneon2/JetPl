@@ -1,0 +1,9 @@
+#jbucket_aws_access_key_id,
+#jbucket_aws_secret_access_key {
+    width: 350px;
+}
+.jbucket_error_notif {
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+}

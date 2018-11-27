@@ -1,0 +1,15 @@
+{
+    "name": "jetty-team/jetty-admin-chat",
+    "description": "Building a plugin using the Twilio chat API for chat in the Wordpress admin with logged in admins.",
+    "type": "project",
+    "license": "GPLv2 or later",
+    "authors": [
+        {
+            "name": "jetty-team",
+            "email": "chad@mossyrock.us"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^5.16"
+    }
+}
